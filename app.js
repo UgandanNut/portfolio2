@@ -18,7 +18,15 @@ amsg.style.display = "none";
 const backk = document.getElementById("backk")
 backk.style.display = "none";
 
+const imag1 = document.getElementById("imag1")
 
+imag1.addEventListener("mouseover", function(){
+    imag1.style.opacity = "80%"
+})
+
+imag1.addEventListener("mouseout", function(){
+    imag1.style.opacity = "100%"
+})
 
 function img1(){
     window.location.href = "https://www.skistudios.net/website2/"
@@ -28,7 +36,7 @@ function img1(){
 var imag2 = document.getElementById("imag2")
 
     imag2.addEventListener("mouseover", function(){
-        imag2.style.opacity = "20%"
+        imag2.style.opacity = "80%"
     })
 
     imag2.addEventListener("mouseout", function(){
@@ -43,7 +51,7 @@ var imag2 = document.getElementById("imag2")
     var imag3 = document.getElementById("imag3")
 
     imag3.addEventListener("mouseover", function(){
-        imag3.style.opacity = "20%"
+        imag3.style.opacity = "80%"
     })
 
     imag3.addEventListener("mouseout", function(){
@@ -61,7 +69,7 @@ var imag2 = document.getElementById("imag2")
     const aboutt = document.getElementById("aboutt")
 
     aboutt.addEventListener("mouseover", function(){
-        aboutt.style.opacity = "20%"
+        aboutt.style.opacity = "80%"
     })
 
     aboutt.addEventListener("mouseout", function(){
