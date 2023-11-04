@@ -18,15 +18,6 @@ amsg.style.display = "none";
 const backk = document.getElementById("backk")
 backk.style.display = "none";
 
-const imag1 = document.getElementById("imag1")
-
-imag1.addEventListener("mouseover", function(){
-    imag1.style.opacity = "20%"
-})
-
-imag1.addEventListener("mouseout", function(){
-    imag1.style.opacity = "100%"
-})
 
 
 function img1(){
