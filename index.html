@@ -33,10 +33,21 @@
     </script>
 
 </head>
+
 <body>
+    
+    <div class="header">  
     <div class="about" onclick="about()" id="aboutt">
-        <p>ABOUT ME</p>
+    <p>ABOUT ME</p>
+     </div>
+    <div class="phoneimg" id="phoneimg">
+        <img src="phone.gif" onclick="phoneopen()" >
+        <p>CLICK TO CONTACT ME!</p>
+        </div>
     </div>
+    
+        
+    
 
     <div class="Amsg" id="amsg">
         <p>hello, i'm a UI/UX dev / web develoebper with 2 years of experience (experienced with html,css,javascript).
@@ -46,13 +57,12 @@
         </p>
     </div>
 
-    <div class="back" onclick="back()" id="backk">
-       <p>BACK</p>
-    </div>
+    
 
     <div class="client" id="client">
     <p>RECENTLY FINISHED CLIENT PROJECT/REQUEST</p>
     </div>
+
     <div class="img1" id="imag1" onclick="img1()">
         <img  src="ski.png"    width="50%" height="70%">
         <p>Ski Studios, founded in 2023 by Ethan Pszanowski, is a premier audio engineering service dedicated to the art of capturing, refining, and perfecting the sound of music. We provide our artists with the tools and experience necessary to truly capture their vision. At Ski Studios, we understand that each artist has a unique vision for their music. That's why we pride ourselves on working diligently with our clients. Equipped with industry-standard equipment and software, Ski Studios leaves no stone unturned when it comes to delivering uncompromising audio quality. From pressing records to bouncing the master, we pay careful attention to every detail throughout the recording, editing, mixing, and mastering processes. With a dedication to excellence and a passion for the craft, Ski Studios is the destination for artists looking to unleash the full potential of their music and make a lasting impact in the industry. Contact us to start your next project!</p>
@@ -86,7 +96,13 @@
             </form>
            </div>
           
+           <div class="back" onclick="back()" id="backk">
+       <p>BACK</p>
+    </div>
    
+   <div class="phoneback" id="phoneback" onclick="phonebackk()">
+    <p>BACK</p>
+   </div>
 
         <script src="app.js"></script>
         
