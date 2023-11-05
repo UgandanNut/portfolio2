@@ -1,12 +1,14 @@
 
 
-    body{
+body{
     background-image: radial-gradient(black, grey, white);
     font-family:'Permanent Marker', cursive;}
     
-
     
-
+    
+    html, body {
+        margin: 0;
+      }
 
 
     .about {
@@ -20,7 +22,32 @@
     border-top-color: white;
     border-bottom-color:rgb(43, 42, 42);
     text-align: center;
+    margin-bottom: 1%;
     }
+
+    .phoneimg img{
+      margin-left: 45.5%;
+      width: 10%;
+      height: 10%;
+    }
+
+    .phoneimg p{
+        text-align: center;
+        font-size: 80%;
+      }
+
+    @media screen and (max-width: 500px) {
+        .phoneimg img{
+            width: 20%;
+            margin-left: 41%;
+          }
+          .phoneimg p{
+            text-align: center;
+            font-size: 80%;
+          }
+     }
+    
+     
 
     .Amsg {
     margin-top: 5%;
@@ -56,6 +83,7 @@
         text-align: center;
         border: 5px solid white;
         background-color: white;
+        
     }
 
     .personal {
@@ -64,6 +92,7 @@
         text-align: center;
         border: 5px solid black;
         background-color: black;
+       
     }
 
     .personal p{
@@ -91,14 +120,15 @@
     .img2{
         margin-bottom: 3%;
         border: 2px solid rgb(238, 238, 49);
-        border-radius: 2%;
+        border-radius: 3%;
         background-image: linear-gradient(to bottom right, rgb(238, 238, 49), rgb(197, 2, 2), rgb(238, 238, 49));
         padding-bottom: 10.5%;
+        
     }
     .img2 img{
         float: left;
         border: 1px solid rgb(238, 238, 49);
-        border-radius: 2%;
+        border-radius: 5%;
        
     }
     .img2 p{
@@ -116,7 +146,7 @@
     .img3 img{
         float: left;
         border: 1px solid rgb(151, 151, 151);
-        border-radius: 2%;
+        border-radius: 5%;
        
     }
     .img3 p{
@@ -138,4 +168,20 @@
        border: 5px solid black;
        background-color: black;
     }
+
+    .phoneback p{
+        background-image: radial-gradient(grey, white, black);
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 5%;
+        border-radius: 10%;
+        border-style: outset;
+        border-left-color: white;
+        border-right-color: rgb(43, 42, 42);
+        border-top-color: white;
+        border-bottom-color:rgb(43, 42, 42);
+        text-align: center;
+    }
+
+    
     
