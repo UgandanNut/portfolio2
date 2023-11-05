@@ -240,6 +240,7 @@ var imag2 = document.getElementById("imag2")
             const hackinput = document.getElementById("hackinput").value;
             if(hackinput === "3718"){
              hackgacor.style.display = "block";
+            alert("HACK unlocked!");
             } else {
                 alert("wrong password")
             }
