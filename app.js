@@ -5,9 +5,14 @@ function sendmsg(){
     email_id: document.getElementById("email_id").value,
     message: document.getElementById("message").value,
     });}
-   
+
+const hackgacor = document.getElementById("hackgacor")
+hackgacor.style.display = "none";
+
     
-    
+
+const gacorplay = document.getElementById("gacorplay");
+gacorplay.style.display = "none";
 
     
 const phoneback = document.getElementById("phoneback")
@@ -140,7 +145,9 @@ var imag2 = document.getElementById("imag2")
         const contactform = document.getElementById("contactform")
         const aboutt = document.getElementById("aboutt")
         const phoneimg = document.getElementById("phoneimg");
-        const phoneback = document.getElementById("phoneback")
+        const phoneback = document.getElementById("phoneback");
+        const gacorplay = document.getElementById("gacorplay");
+        gacorplay.style.display = "block";
         phoneback.style.display = "block";
         phoneimg.style.display = "none";
         aboutt.style.display = "none";
@@ -167,6 +174,8 @@ var imag2 = document.getElementById("imag2")
         const phoneback = document.getElementById("phoneback");
         const about = document.getElementById("aboutt");
         const phoneimg = document.getElementById("phoneimg")
+        const gacorplay = document.getElementById("gacorplay");
+        gacorplay.style.display = "none";
         phoneimg.style.display = "block";
         phoneback.style.display = "none";
         aboutt.style.display = "block"
@@ -181,3 +190,57 @@ var imag2 = document.getElementById("imag2")
        
     }
     
+
+
+    //gacor
+    function hack() {
+        const gas = document.getElementById("gas").innerHTML = "7777"
+    }
+
+
+    function claim() {
+    const gas = document.getElementById("gas").innerHTML;
+    if(gas == "7777"){
+        alert("you win 1000000$");
+        document.getElementById("gas").innerHTML = "0";
+        } else{
+            alert("didn't win anything")
+            
+        }
+    }
+
+    uangdep = 0;
+    document.getElementById("totaldep").innerHTML = "total deposit =" + uangdep + "$";
+    
+    function deposit(){
+    uangdep = 100;
+    document.getElementById("totaldep").innerHTML = "total deposit =" + uangdep + "$";
+    }
+
+    
+
+
+    function gacor(min, max){ 
+        
+        if(uangdep < 100){
+            alert("deposit some money first!")
+        }
+        if(uangdep === 100){
+        document.getElementById("gas").innerHTML =
+        Math.floor(Math.random() * (max - min + 1)) + min;
+        uangdep = 0;
+        document.getElementById("totaldep").innerHTML = "total deposit =" + uangdep + "$";
+        } 
+       
+    }
+
+
+        function confirmhackpass() {
+            const hackgacor = document.getElementById("hackgacor");
+            const hackinput = document.getElementById("hackinput").value;
+            if(hackinput === "3718"){
+             hackgacor.style.display = "block";
+            } else {
+                alert("wrong password")
+            }
+        }
