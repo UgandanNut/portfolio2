@@ -182,6 +182,38 @@ body{
         border-bottom-color:rgb(43, 42, 42);
         text-align: center;
     }
+    
 
-    
-    
+  
+      .gacorplay{
+        border: 5px solid rgb(151, 151, 151);
+        background-image:  linear-gradient(to bottom right,rgb(151, 151, 151),white, rgb(151, 151, 151));
+        
+      }
+
+      .gacorplay .gacorplayin p{
+        text-align: center;
+        
+      }
+
+      .gacorplay .gacorplayin button{
+        margin-left: 47%;
+        
+      }
+
+      .gacorplay .gacorplayin input{
+        margin-left: 45%;
+        
+      }
+
+      @media screen and (max-width: 500px) {
+        .gacorplay .gacorplayin button{
+            
+            margin-left: 41%;
+          }
+          .gacorplay .gacorplayin input{
+            margin-left: 25%;
+          }
+     }
+      
+      
