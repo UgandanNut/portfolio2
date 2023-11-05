@@ -36,15 +36,21 @@
 
 <body>
     
-    <div class="header">  
+     
     <div class="about" onclick="about()" id="aboutt">
     <p>ABOUT ME</p>
      </div>
+
+   
+
     <div class="phoneimg" id="phoneimg">
+        <p>CLICK TO PLAY A MINIGAME!</p>
         <img src="phone.gif" onclick="phoneopen()" >
         <p>CLICK TO CONTACT ME!</p>
         </div>
-    </div>
+
+       
+    
     
         
     
@@ -81,7 +87,22 @@
         <img src="port_bitCave.PNG"  width="30%" height="50%" >
         <p>a personal project of mine, there's no mobile support on it.(use laptop/pc to access it.)</p>
     </div>
-
+        <div class="gacorplay" id="gacorplay">
+                    <div class="gacorplayin" id="gacorplayin">
+                    <p>CASINO MINGAME</p>
+                    <p>Winning number is 7777</p>
+                    <p id="totaldep">total deposit</p>
+                    <p id="gas">0000</p>
+                    <button onclick="gacor(0000, 7777)">gamble</button>
+                    <button onclick="deposit()">deposit</button>
+                    <button onclick="claim()">claim</button>
+                    <button id="hackgacor" onclick="hack()">HACK</button>
+                    <p>enter a password to unlock a hack button that instantly gives you 7777. clue: my discord id</p>
+                    <input id="hackinput">
+                    <button onclick="confirmhackpass()">confirm password</button>
+                
+                </div>
+                </div>
             <div class="contactform" id="contactform">
                 <p>EMAIL CONTACT FORM</p>
            <form id="contact-form">
@@ -94,7 +115,9 @@
             <textarea name="message" id="message" required></textarea>
             <input type="submit" value="Send" onclick="sendmsg()">
             </form>
-           </div>
+           </div> 
+           
+           
           
            <div class="back" onclick="back()" id="backk">
        <p>BACK</p>
