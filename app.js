@@ -8,9 +8,10 @@ function sendmsg(){
    
     
     
+
     
-    
-    
+const phoneback = document.getElementById("phoneback")
+phoneback.style.display = "none";
 
 const amsg = document.getElementById("amsg")
 amsg.style.display = "none";
@@ -28,6 +29,7 @@ imag1.addEventListener("mouseout", function(){
     imag1.style.opacity = "100%"
 })
 
+
 function img1(){
     window.location.href = "https://www.skistudios.net/website2/"
 }
@@ -36,7 +38,7 @@ function img1(){
 var imag2 = document.getElementById("imag2")
 
     imag2.addEventListener("mouseover", function(){
-        imag2.style.opacity = "80%"
+        imag2.style.opacity = "70%"
     })
 
     imag2.addEventListener("mouseout", function(){
@@ -88,6 +90,8 @@ var imag2 = document.getElementById("imag2")
         const backk = document.getElementById("backk");
         const amsg = document.getElementById("amsg")
         const contactform = document.getElementById("contactform")
+        const phoneimg = document.getElementById("phoneimg");
+        phoneimg.style.display = "none";
         amsg.style.display = "block";
         backk.style.display = "block";
         contactform.style.display = "none";
@@ -108,6 +112,10 @@ var imag2 = document.getElementById("imag2")
         const backk = document.getElementById("backk")
         const amsg = document.getElementById("amsg")
         const contactform = document.getElementById("contactform")
+        const phoneback = document.getElementById("phoneback");
+        const phoneimg = document.getElementById("phoneimg")
+        phoneimg.style.display = "block";
+        phoneback.style.display = "none";
         amsg.style.display = "none";
         backk.style.display = "none";
         contactform.style.display = "block";
@@ -118,3 +126,58 @@ var imag2 = document.getElementById("imag2")
         personal.style.display = "block";
        
     }
+
+
+
+    function phoneopen() {
+        const imag1 = document.getElementById("imag1");
+        const imag2 = document.getElementById("imag2");
+        const imag3 = document.getElementById("imag3");
+        const client = document.getElementById("client");
+        const personal = document.getElementById("personal");
+        const backk = document.getElementById("backk");
+        const amsg = document.getElementById("amsg")
+        const contactform = document.getElementById("contactform")
+        const aboutt = document.getElementById("aboutt")
+        const phoneimg = document.getElementById("phoneimg");
+        const phoneback = document.getElementById("phoneback")
+        phoneback.style.display = "block";
+        phoneimg.style.display = "none";
+        aboutt.style.display = "none";
+        amsg.style.display = "none";
+        backk.style.display = "none";
+        contactform.style.display = "display";
+        imag1.style.display = "none";
+        imag2.style.display = "none";
+        imag3.style.display = "none";
+        client.style.display = "none";
+        personal.style.display = "none";
+        
+    }
+
+    function phonebackk() {
+        const imag1 = document.getElementById("imag1");
+        const imag2 = document.getElementById("imag2");
+        const imag3 = document.getElementById("imag3");
+        const client = document.getElementById("client");
+        const personal = document.getElementById("personal");
+        const backk = document.getElementById("backk")
+        const amsg = document.getElementById("amsg")
+        const contactform = document.getElementById("contactform");
+        const phoneback = document.getElementById("phoneback");
+        const about = document.getElementById("aboutt");
+        const phoneimg = document.getElementById("phoneimg")
+        phoneimg.style.display = "block";
+        phoneback.style.display = "none";
+        aboutt.style.display = "block"
+        amsg.style.display = "none";
+        backk.style.display = "none";
+        contactform.style.display = "block";
+        imag1.style.display = "block";
+        imag2.style.display = "block";
+        imag3.style.display = "block";
+        client.style.display = "block";
+        personal.style.display = "block";
+       
+    }
+    
