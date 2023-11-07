@@ -37,7 +37,7 @@ body{
 
     .phoneimg img{
      
-      
+     
       border-radius: 20px;
       width: 23%;
       height: 20%;
@@ -46,12 +46,12 @@ body{
 
     
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 700px) {
         .phoneimg img{
-          margin-top: 2%;
-          margin-left: -1%;
-          width: 34%;
-          height: 34%;
+         
+          margin-left: 5%;
+          width: 35%;
+          height: 35%;
           }
           
      }
