@@ -25,26 +25,35 @@ body{
     margin-bottom: 1%;
     }
 
-    .phoneimg img{
-      margin-left: 45.5%;
-      width: 10%;
-      height: 10%;
+
+
+    .phoneimg{
+      
+      margin-left: 67%;
+      position: absolute;
+     
+      
     }
 
-    .phoneimg p{
-        text-align: center;
-        font-size: 80%;
-      }
+    .phoneimg img{
+     
+      
+      border-radius: 20px;
+      width: 23%;
+      height: 20%;
+      
+    }
 
-    @media screen and (max-width: 500px) {
+    
+
+    @media screen and (max-width: 600px) {
         .phoneimg img{
-            width: 20%;
-            margin-left: 41%;
+          margin-top: 2%;
+          margin-left: -1%;
+          width: 34%;
+          height: 34%;
           }
-          .phoneimg p{
-            text-align: center;
-            font-size: 80%;
-          }
+          
      }
     
      
