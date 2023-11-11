@@ -12,6 +12,7 @@ body{
 
 
     .about {
+        transition: all 1s;
     background-image: radial-gradient(grey, white, black);
     width: 30%;
     margin-left: 35%;
@@ -109,6 +110,7 @@ body{
     }
     
     .img1{
+         transition: all 1s;
         border: 2px solid grey;
         border-radius: 2%;
         background-image: linear-gradient(rgb(151, 151, 151), rgb(197, 2, 2), grey);
@@ -127,6 +129,7 @@ body{
     }
 
     .img2{
+         transition: all 1s;
         margin-bottom: 3%;
         border: 2px solid rgb(238, 238, 49);
         border-radius: 3%;
@@ -147,6 +150,7 @@ body{
     }
 
     .img3{
+         transition: all 1s;
         padding-bottom: 10.3%;
         border: 2px solid grey;
         border-radius: 2%;
