@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html, body {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    }
+    
+    html {
+    scroll-behavior: smooth;
+    }
+    
+    
+    .bar{
+      transition: all 1s;
+      position: absolute;
+     margin-left: 9%;
+      position: fixed;
+      border: 1px solid rgb(212, 212, 212);
+      border-radius: 10px;
+      width: 80%;
+      height: 4%;
+      background-color: rgb(212, 212, 212);
+    }
+    
+    .bar span{
+      color: rgb(22, 22, 22);
+     margin-left: 38%;
+     border-radius: 2px;
+      border: 1px solid rgb(212, 212, 212);
+      background-color: rgb(212, 212, 212);
+      height: 0%;
+    }
+    
+    
+    
+    
+    
+    .material-symbols-outlined {
+     
+      position: fixed;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+    
+    .material-symbols-outlined {
+      
+      border-radius: 2.5px;
+      border: 1px solid rgb(22, 22, 22);
+      background-color: rgb(22, 22, 22);
+      position: fixed;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+    .container {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 12rem;
+    }
+    
+    .wrapper {
+    margin-left: 32%;
+    width: 400px;
+    height: 83%;
+    }
+    
+    p {
+    
+    top: 0;
+    left: 0;
+    height: 380px;
+    opacity: 0;
+    width: 400px;
+    transition: all 1s;
+    }
+    
+    .pA {
+    transform: translateX(-200px);
+    opacity: 0;
+    
+    }
+    
+    .pB {
+      margin-top: 23%;
+    transform: translateX(-200px);
+    opacity: 0;
+    }
+    
+    
+    .pB img{
+    border: 5px solid grey;
+    border-radius: 5%;
+    }
+    
+    
+    .pC {
+    margin-top: 165%;
+    transform: translateX(-200px);
+    opacity: 0;
+    }
+    
+    .pD {
+     
+    transform: scale(0);
+    }
+    
+    .fadeInLeft {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+    
+    .fadeInRight {
+    transform: translateX(0px);
+    opacity: 1;
+    }
+    
+    .fadeInBtm {
+    transform: translateY(0px);
+    opacity: 1;
+    }
+    
+    .zoomIn {
+    transform: scale(1);
+    opacity: 1;
+    }
+    
+    @media screen and (max-width: 700px) {
+    .wrapper {
+    margin-left: 5%;
+    width: 400px;
+    height: 100%;
+    }
+    
+    p {
+    
+    top: 0;
+    left: 0;
+    height: 350px;
+    opacity: 0;
+    width: 270px;
+    transition: all 1s;
+    }
+    
+    }
