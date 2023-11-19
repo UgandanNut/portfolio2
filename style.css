@@ -1,240 +1,220 @@
-
-
-body{
-    background-image: radial-gradient(black, grey, white);
-    font-family: 'Lato', sans-serif;}
-    
-    
-    
-    html, body {
-        margin: 0;
-      }
-
-
-    .about {
-        transition: all 1s;
-    background-image: radial-gradient(grey, white, black);
-    width: 30%;
-    margin-left: 35%;
-    border-radius: 10%;
-    border-style: outset;
-    border-left-color: white;
-    border-right-color: rgb(43, 42, 42);
-    border-top-color: white;
-    border-bottom-color:rgb(43, 42, 42);
-    text-align: center;
-    margin-bottom: 1%;
+  html, body {
+  background-color: rgb(22, 22, 22);
+  font-family: 'Lato', sans-serif;
+  margin: 0;
     }
 
 
-
-    .phoneimg{
-      
-      margin-left: 67%;
-      position: absolute;
-     
-      
-    }
-
-    .phoneimg img{
-     
-     
-      border-radius: 20px;
-      width: 23%;
-      height: 20%;
-      
-    }
-
-    
-
-    @media screen and (max-width: 700px) {
-        .phoneimg img{
-         
-          margin-left: 20%;
-          width: 35%;
-          height: 35%;
-          }
-          
-     }
-    
-     
-
-    .Amsg {
-    margin-top: 5%;
-    border-style: outset;
-    border-left-color: white;
-    border-right-color: rgb(43, 42, 42);
-    border-top-color: white;
-    border-bottom-color:rgb(43, 42, 42);
-    border-radius: 5%;
-    }
-
-    .Amsg p{
-    color: white;
-    font-size: 100%;
-    text-align: center;
-    }
-
-    .back {
-    background-image: radial-gradient(grey, white, black);
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 5%;
-    border-radius: 10%;
-    border-style: outset;
-    border-left-color: white;
-    border-right-color: rgb(43, 42, 42);
-    border-top-color: white;
-    border-bottom-color:rgb(43, 42, 42);
-    text-align: center;
-    }
-
-    .client p{
-        text-align: center;
-        border: 5px solid white;
-        background-color: white;
-        
-    }
-
-    .personal {
-        margin-top: 2%;
-        margin-bottom: 4%;
-        text-align: center;
-        border: 5px solid black;
-        background-color: black;
-       
-    }
-
-    .personal p{
-       color: white;
-    }
-    
-    .img1{
-         transition: all 1s;
-        border: 2px solid grey;
-        border-radius: 2%;
-        background-image: linear-gradient(rgb(151, 151, 151), rgb(197, 2, 2), grey);
-        
-    }
-    .img1 img{
-        margin-left: 25%;
-        border: 1px solid rgb(151, 151, 151);
-        border-radius: 2%;
-       
-    }
-    .img1 p{
-        font-size: 75%;
-        color: white;
-        text-align: center;
-    }
-
-    .img2{
-         transition: all 1s;
-        margin-bottom: 3%;
-        border: 2px solid rgb(238, 238, 49);
-        border-radius: 3%;
-        background-image: linear-gradient(to bottom right, rgb(238, 238, 49), rgb(197, 2, 2), rgb(238, 238, 49));
-        padding-bottom: 10.5%;
-        
-    }
-    .img2 img{
-        float: left;
-        border: 1px solid rgb(238, 238, 49);
-        border-radius: 5%;
-       
-    }
-    .img2 p{
-        color: white;
-        text-align: center;
-        
-    }
-
-    .img3{
-         transition: all 1s;
-        padding-bottom: 10.3%;
-        border: 2px solid grey;
-        border-radius: 2%;
-        background-image: linear-gradient(to bottom right,rgb(151, 151, 151),black, grey);
-    }
-    .img3 img{
-        float: left;
-        border: 1px solid rgb(151, 151, 151);
-        border-radius: 5%;
-       
-    }
-    .img3 p{
-        color: white;
-        text-align: center;
-    }
-
-    .contactform p{
-        text-align: center;
-        color: white;
-    }
-
-    .contactform label{
-        color: white;
-    }
-
-    .contactform {
-        margin-top: 3%;
-       border: 5px solid black;
-       background-color: black;
-    }
-
- .contactform p{
-     font-size: 70%;
+  .about {
+  transition: all 1s;
+  width: 30%;
+  margin-left: 35%;
+  background-color: rgb(212, 212, 212);
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2%;
   }
 
-  .contactform .emailtxt p{
-    font-size: 100%;
- }
 
-    .phoneback p{
-        background-image: radial-gradient(grey, white, black);
-        width: 30%;
-        margin-left: 35%;
-        margin-top: 5%;
-        border-radius: 10%;
-        border-style: outset;
-        border-left-color: white;
-        border-right-color: rgb(43, 42, 42);
-        border-top-color: white;
-        border-bottom-color:rgb(43, 42, 42);
-        text-align: center;
-    }
+
+  .phoneimg{
     
+    margin-left: 67%;
+    position: absolute;
+   
+    
+  }
+
+  .phoneimg img{
+   
+   
+    border-radius: 20px;
+    width: 23%;
+    height: 20%;
+    
+  }
 
   
-      .gacorplay{
-        border: 5px solid rgb(151, 151, 151);
-        background-image:  linear-gradient(to bottom right,rgb(151, 151, 151),white, rgb(151, 151, 151));
-        
-      }
 
-      .gacorplay .gacorplayin p{
-        text-align: center;
+  @media screen and (max-width: 700px) {
+      .phoneimg img{
+       
+        margin-left: 20%;
+        width: 35%;
+        height: 35%;
+        }
         
-      }
+   }
+  
+   
 
+  .Amsg {
+  margin-top: 5%;
+  border: 1px solid rgb(212, 212, 212);
+  background-color: rgb(212, 212, 212);
+  border-radius: 10px;
+  
+  }
+
+  .Amsg p{
+  color: rgb(22, 22, 22);
+  font-size: 100%;
+  text-align: center;
+  }
+
+  .back {
+  background-color: rgb(212, 212, 212);
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+ text-align: center;
+  }
+
+  .client p{
+      text-align: center;
+      border: 5px solid rgb(212, 212, 212);
+      background-color: rgb(212, 212, 212);
+      border-radius: 10px;
+      
+  }
+
+  
+
+  .personal p{
+     color: black;
+     margin-top: 1%;
+      margin-bottom: 1%;
+      text-align: center;
+      border: 5px solid rgb(212, 212, 212);
+      background-color: rgb(212, 212, 212);
+      border-radius: 10px;
+  }
+  
+  .img1{
+       transition: all 1s;
+      border: 2px solid grey;
+      border-radius: 2%;
+      background-image: linear-gradient(rgb(151, 151, 151), rgb(197, 2, 2), grey);
+      
+  }
+  .img1 img{
+      margin-left: 25%;
+      border: 1px solid rgb(151, 151, 151);
+      border-radius: 2%;
+     
+  }
+  .img1 p{
+      font-size: 75%;
+      color: white;
+      text-align: center;
+  }
+
+  .img2{
+       transition: all 1s;
+      margin-bottom: 3%;
+      border: 2px solid rgb(238, 238, 49);
+      border-radius: 3%;
+      background-image: linear-gradient(to bottom right, rgb(238, 238, 49), rgb(197, 2, 2), rgb(238, 238, 49));
+      padding-bottom: 10.5%;
+      
+  }
+  .img2 img{
+      float: left;
+      border: 1px solid rgb(238, 238, 49);
+      border-radius: 5%;
+     
+  }
+  .img2 p{
+      color: white;
+      text-align: center;
+      
+  }
+
+  .img3{
+       transition: all 1s;
+      padding-bottom: 10.3%;
+      border: 2px solid grey;
+      border-radius: 2%;
+      background-image: linear-gradient(to bottom right,rgb(151, 151, 151),black, grey);
+  }
+  .img3 img{
+      float: left;
+      border: 1px solid rgb(151, 151, 151);
+      border-radius: 5%;
+     
+  }
+  .img3 p{
+      color: white;
+      text-align: center;
+  }
+
+  .contactform p{
+      text-align: center;
+      color: white;
+  }
+
+  .contactform label{
+      color: white;
+  }
+
+  .contactform {
+      margin-top: 3%;
+     border: 5px solid black;
+     background-color: black;
+  }
+
+.contactform p{
+   font-size: 70%;
+}
+
+.contactform .emailtxt p{
+  font-size: 100%;
+}
+
+  .phoneback p{
+  background-color: rgb(212, 212, 212);
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+ text-align: center;
+  }
+  
+
+
+    .gacorplay{
+      border: 5px solid rgb(212, 212, 212);
+      background-color: rgb(212, 212, 212);
+      
+    }
+
+    .gacorplay .gacorplayin p{
+      text-align: center;
+      
+    }
+
+    .gacorplay .gacorplayin button{
+      margin-left: 47%;
+      
+    }
+
+    .gacorplay .gacorplayin input{
+      margin-left: 45%;
+      
+    }
+
+    @media screen and (max-width: 500px) {
       .gacorplay .gacorplayin button{
-        margin-left: 47%;
-        
-      }
-
-      .gacorplay .gacorplayin input{
-        margin-left: 45%;
-        
-      }
-
-      @media screen and (max-width: 500px) {
-        .gacorplay .gacorplayin button{
-            
-            margin-left: 41%;
-          }
-          .gacorplay .gacorplayin input{
-            margin-left: 25%;
-          }
-     }
-      
-      
+          
+          margin-left: 41%;
+        }
+        .gacorplay .gacorplayin input{
+          margin-left: 25%;
+        }
+   }
+    
+    
