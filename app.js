@@ -36,7 +36,7 @@ imag1.addEventListener("mouseout", function(){
 
 
 function img1(){
-    window.location.href = "https://www.skistudios.net/website2/"
+    window.location.href = "https://www.skistudios.net/website2/index.html"
 }
 
 
