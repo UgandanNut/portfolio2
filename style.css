@@ -182,6 +182,14 @@ body{
        background-color: black;
     }
 
+ .contactform p{
+     font-size: 70%;
+  }
+
+  .contactform .emailtxt p{
+    font-size: 100%;
+ }
+
     .phoneback p{
         background-image: radial-gradient(grey, white, black);
         width: 30%;
