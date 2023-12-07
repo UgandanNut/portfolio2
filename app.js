@@ -12,19 +12,34 @@ hackgacor.style.display = "none";
 
 //catalog
 const catalog1 = document.getElementById("catalog")
-const catinvisbox = document.getElementById("cataloginvisbox")
+const mobilemenu1 = document.getElementById("mobilemenu");
+const minigamecat1 = document.getElementById("minigamecat");
+const homepage1 = document.getElementById("homepage")
 catalog1.style.opacity = "0%";
-
-catinvisbox.addEventListener('mouseover', function(){
+minigamecat1.style.display = "none";
+homepage1.style.display = "none";
+catalog1.addEventListener('mouseover', function(){
+    
     catalog1.style.opacity = "100%";
+
+    minigamecat1.style.display = "block";
+    homepage1.style.display = "block";
 })
 
 
-catinvisbox.addEventListener('mouseout', function(){
+catalog1.addEventListener('mouseout', function(){
+   
     catalog1.style.opacity = "0%";
+    minigamecat1.style.display = "none";
+    homepage1.style.display = "none";
 })
 
+function mobilemenu(){
+    catalog1.style.opacity = "100%";
 
+    minigamecat1.style.display = "block";
+    homepage1.style.display = "block";
+}
 
 
 //catalog
