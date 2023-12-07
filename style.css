@@ -43,7 +43,7 @@ html, body {
 
   @media screen and (max-width: 500px) {
     .catalog{
-      
+      display: none;
       border: 10px solid rgb(182, 182, 182);
       border-top-right-radius: 10%;
       width: 23%;
@@ -55,7 +55,7 @@ html, body {
   
     .catmenumob{
       pointer-events: none;
-      display: block;
+      display: none;
       position: absolute;
       margin-left: 10%;
       color: white;
