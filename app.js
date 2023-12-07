@@ -12,14 +12,15 @@ hackgacor.style.display = "none";
 
 //catalog
 const catalog1 = document.getElementById("catalog")
+const catinvisbox = document.getElementById("cataloginvisbox")
 catalog1.style.opacity = "0%";
 
-catalog1.addEventListener('mouseover', function(){
+catinvisbox.addEventListener('mouseover', function(){
     catalog1.style.opacity = "100%";
 })
 
 
-catalog1.addEventListener('mouseout', function(){
+catinvisbox.addEventListener('mouseout', function(){
     catalog1.style.opacity = "0%";
 })
 
@@ -178,6 +179,7 @@ var imag2 = document.getElementById("imag2")
         imag3.style.display = "none";
         client.style.display = "none";
         personal.style.display = "none";
+        
         
     }
 
