@@ -9,8 +9,24 @@ function sendmsg(){
 const hackgacor = document.getElementById("hackgacor")
 hackgacor.style.display = "none";
 
-    
 
+//catalog
+const catalog1 = document.getElementById("catalog")
+catalog1.style.opacity = "0%";
+
+catalog1.addEventListener('mouseover', function(){
+    catalog1.style.opacity = "100%";
+})
+
+
+catalog1.addEventListener('mouseout', function(){
+    catalog1.style.opacity = "0%";
+})
+
+
+
+
+//catalog
 const gacorplay = document.getElementById("gacorplay");
 gacorplay.style.display = "none";
 
@@ -27,7 +43,7 @@ backk.style.display = "none";
 const imag1 = document.getElementById("imag1")
 
 imag1.addEventListener("mouseover", function(){
-    imag1.style.opacity = "60%"
+    imag1.style.opacity = "65%"
 })
 
 imag1.addEventListener("mouseout", function(){
@@ -43,7 +59,7 @@ function img1(){
 var imag2 = document.getElementById("imag2")
 
     imag2.addEventListener("mouseover", function(){
-        imag2.style.opacity = "60%"
+        imag2.style.opacity = "65%"
     })
 
     imag2.addEventListener("mouseout", function(){
@@ -58,7 +74,7 @@ var imag2 = document.getElementById("imag2")
     var imag3 = document.getElementById("imag3")
 
     imag3.addEventListener("mouseover", function(){
-        imag3.style.opacity = "60%"
+        imag3.style.opacity = "65%"
     })
 
     imag3.addEventListener("mouseout", function(){
@@ -70,13 +86,15 @@ var imag2 = document.getElementById("imag2")
         window.location.href = "https://ugandannut.github.io/bitcavee/index.html"
     }
 
-
+    function homepage(){
+        window.location.href = "index.html"
+    }
     // about
 
     const aboutt = document.getElementById("aboutt")
 
     aboutt.addEventListener("mouseover", function(){
-        aboutt.style.opacity = "60%"
+        aboutt.style.opacity = "65%"
     })
 
     aboutt.addEventListener("mouseout", function(){
@@ -85,6 +103,7 @@ var imag2 = document.getElementById("imag2")
     
     //
 
+    
 
     function about() {
         const imag1 = document.getElementById("imag1");
@@ -190,7 +209,33 @@ var imag2 = document.getElementById("imag2")
        
     }
     
-
+    function minigamecat(){
+        const imag1 = document.getElementById("imag1");
+        const imag2 = document.getElementById("imag2");
+        const imag3 = document.getElementById("imag3");
+        const client = document.getElementById("client");
+        const personal = document.getElementById("personal");
+        const backk = document.getElementById("backk");
+        const amsg = document.getElementById("amsg")
+        const contactform = document.getElementById("contactform")
+        const aboutt = document.getElementById("aboutt")
+        const phoneimg = document.getElementById("phoneimg");
+        const phoneback = document.getElementById("phoneback");
+        const gacorplay = document.getElementById("gacorplay");
+        gacorplay.style.display = "block";
+        phoneback.style.display = "block";
+        phoneimg.style.display = "none";
+        aboutt.style.display = "none";
+        amsg.style.display = "none";
+        backk.style.display = "none";
+        contactform.style.display = "none";
+        imag1.style.display = "none";
+        imag2.style.display = "none";
+        imag3.style.display = "none";
+        client.style.display = "none";
+        personal.style.display = "none";
+    }
+    
 
     //gacor
     function hack() {
