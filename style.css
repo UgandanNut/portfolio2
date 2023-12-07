@@ -1,4 +1,4 @@
-  html, body {
+html, body {
   background-color: rgb(22, 22, 22);
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -26,13 +26,6 @@
     
   }
 
-  .cataloginvisbox{
-    border: 5px solid white;
-    width: 23%;
-    height: 100%;
-    position: fixed;
-    opacity: 0;
-  }
 
 
   .phoneimg img{
@@ -50,6 +43,7 @@
 
   @media screen and (max-width: 500px) {
     .catalog{
+      
       border: 10px solid rgb(182, 182, 182);
       border-top-right-radius: 10%;
       width: 23%;
