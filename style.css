@@ -26,6 +26,15 @@
     
   }
 
+  .cataloginvisbox{
+    border: 5px solid white;
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    opacity: 0;
+  }
+
+
   .phoneimg img{
    
    
@@ -55,7 +64,7 @@
       display: block;
       position: absolute;
       margin-left: 10%;
-      color: rgb(212, 212, 212);
+      color: white;
       
      }
   
