@@ -21,17 +21,12 @@ homepage1.style.display = "none";
 catalog1.addEventListener('mouseover', function(){
     
     catalog1.style.opacity = "100%";
-
-    minigamecat1.style.display = "block";
-    homepage1.style.display = "block";
 })
 
 
 catalog1.addEventListener('mouseout', function(){
    
     catalog1.style.opacity = "0%";
-    minigamecat1.style.display = "none";
-    homepage1.style.display = "none";
 })
 
 function mobilemenu(){
