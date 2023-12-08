@@ -20,7 +20,7 @@ html, body {
 
   .phoneimg{
     
-    margin-left: 67%;
+    margin-left: 75%;
     position: absolute;
    
     
@@ -38,7 +38,11 @@ html, body {
   }
 
    .catmenumob{
-    display: none;
+    display: block;
+     pointer-events: none;
+      position: absolute;
+      margin-left: 20%;
+      color: white;
    }
 
   @media screen and (max-width: 500px) {
