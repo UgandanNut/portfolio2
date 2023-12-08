@@ -11,6 +11,7 @@ hackgacor.style.display = "none";
 
 
 //catalog
+//catalog
 const catalog1 = document.getElementById("catalog")
 const mobilemenu1 = document.getElementById("mobilemenu");
 const minigamecat1 = document.getElementById("minigamecat");
@@ -21,21 +22,23 @@ homepage1.style.display = "none";
 catalog1.addEventListener('mouseover', function(){
     
     catalog1.style.opacity = "100%";
+
+    minigamecat1.style.display = "block";
+    homepage1.style.display = "block";
 })
 
 
 catalog1.addEventListener('mouseout', function(){
    
     catalog1.style.opacity = "0%";
+   
 })
 
 function mobilemenu(){
     catalog1.style.opacity = "100%";
 
-    minigamecat1.style.display = "block";
-    homepage1.style.display = "block";
+    
 }
-
 
 //catalog
 const gacorplay = document.getElementById("gacorplay");
