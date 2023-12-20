@@ -36,6 +36,7 @@
       border: 1px solid rgb(212, 212, 212);
       background-color: rgb(212, 212, 212);
       height: 0%;
+         z-index: 1;
     }
     
     
@@ -93,19 +94,21 @@
     .pA {
     transform: translateX(-200px);
     opacity: 0;
-    
+     z-index: 0;
     }
     
     .pB {
       margin-top: 23%;
     transform: translateX(-200px);
     opacity: 0;
+    z-index: 0;
     }
     
     
     .pB img{
     border: 1px solid grey;
     border-radius: 5%;
+    z-index: 0;
     }
     
     
@@ -113,10 +116,11 @@
     margin-top: 165%;
     transform: translateX(-200px);
     opacity: 0;
+    z-index: 0;
     }
     
     .pD {
-     
+     z-index: 0;
     transform: scale(0);
     }
     
