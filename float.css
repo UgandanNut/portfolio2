@@ -26,6 +26,7 @@
       width: 80%;
       height: 4%;
       background-color: rgb(212, 212, 212);
+        z-index: 1;
     }
     
     .bar span{
