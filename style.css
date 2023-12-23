@@ -228,6 +228,10 @@ html, body {
       color: white;
   }
 
+  .contactform .form{
+    margin-left: 43%;
+  }
+
   .contactform {
       margin-top: 3%;
      border: 5px solid black;
