@@ -46,6 +46,14 @@ html, body {
    }
 
   @media screen and (max-width: 500px) {
+  .contactform .form input{
+      margin-left: -30%;
+    }
+
+    .contactform .form textarea{
+      margin-left: -30%;
+    }
+    
     .catalog{
       display: none;
       border: 10px solid rgb(182, 182, 182);
