@@ -17,7 +17,7 @@ bar.addEventListener("mouseout",function(){
  }
 
 function pB(){
- window.location.href = "https://www.skistudios.net/website2/index.html"
+ window.location.href = "https://www.skistudios.net/"
 }
 
 const pBid = document.getElementById("pBid");
